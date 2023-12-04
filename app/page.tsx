@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import ilustration from '@/public/illustration.svg';
-import appstore from '@/public/AppStore.svg';
-import google from '@/public/GooglePlay.svg';
+import ilustration from '/illustration.svg';
+import appstore from '/AppStore.svg';
+import google from '/GooglePlay.svg';
 
 export default function Home() {
   return (
