@@ -3,26 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
 ::-webkit-scrollbar {
-	width: 8px;
-	height: 6px;
+  width: 8px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-	background: transparent;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #B9FF66;
-	border-radius: 8px;
+  background: #b9ff66;
+  border-radius: 8px;
 }
 
 ::selection {
-	color: white;
-	background: #B9FF66;
+  color: white;
+  background: #b9ff66;
 }
