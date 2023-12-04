@@ -9,7 +9,7 @@ import zoom from "@/public/zoom.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-wrap items-center gap-9 justify-center p-4">
+    <footer className="flex items-center gap-9 justify-between mx-[90px] p-4">
       <Image
         src={amazon}
         alt="Amazon"

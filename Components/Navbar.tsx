@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-4 px-9 text-black">
+    <nav className="flex items-center justify-between p-4 mx-[90px] text-black">
       {/* Logo on the far left */}
       <div className="flex items-center">
         <span className="text-2xl font-SpaceGrotesk font-semibold italic ">
