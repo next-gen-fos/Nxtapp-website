@@ -13,45 +13,39 @@ const Footer = () => {
       <Image
         src={amazon}
         alt="Amazon"
-        className="mx-7 my-2"
+        className="my-2"
         width={125}
         height={50}
       />
       <Image
         src={dribble}
         alt="Dribble"
-        className="mx-7 my-2"
+        className="my-2"
         width={125}
         height={50}
       />
       <Image
         src={hubspot}
         alt="HubSpot"
-        className="mx-7 my-2"
+        className="my-2"
         width={125}
         height={50}
       />
       <Image
         src={notion}
         alt="Notion"
-        className="mx-7 my-2"
+        className="my-2"
         width={125}
         height={50}
       />
       <Image
         src={netflix}
         alt="Netflix"
-        className="mx-7 my-2"
+        className="my-2"
         width={125}
         height={50}
       />
-      <Image
-        src={zoom}
-        alt="Zoom"
-        className="mx-7 my-2"
-        width={125}
-        height={50}
-      />
+      <Image src={zoom} alt="Zoom" className="my-2" width={125} height={50} />
     </footer>
   );
 };
