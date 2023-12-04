@@ -15,7 +15,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="hidden lg:flex items-center space-x-4">
+      <div className="hidden lg:flex items-center space-x-8">
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
         <Link href="/services">Services</Link>

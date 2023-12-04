@@ -1,7 +1,4 @@
 import Image from 'next/image';
-import ilustration from '/illustration.svg';
-import appstore from '/AppStore.svg';
-import google from '/GooglePlay.svg';
 
 export default function Home() {
   return (
@@ -16,16 +13,16 @@ export default function Home() {
         </p>
         <div className="flex justify-center lg:justify-start">
           <button>
-            <Image src={appstore} alt="appstore" className="mx-2 my-2" width={125} height={50} />
+            <Image src="/Appstore.svg" alt="appstore" className="mx-2 my-2" width={125} height={50} />
           </button>
           <button>
-            <Image src={google} alt="appstore" className="mx-2 my-2" width={125} height={50} />
+            <Image src="/GooglePlay.svg" alt="appstore" className="mx-2 my-2" width={125} height={50} />
           </button>
         </div>
       </div>
 
       <div className="lg:w-1/2 justify-center item-center">
-        <Image src={ilustration} alt="ilustration" className="mx-7 my-2" width={610} height={50} />
+        <Image src="/Illustration.svg" alt="ilustration" className="mx-7 my-2" width={610} height={50} />
       </div>
     </div>
   );
