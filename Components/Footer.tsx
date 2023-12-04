@@ -10,49 +10,60 @@ import zoom from "@/public/zoom.svg";
 const Footer = () => {
   return (
     <footer className="flex flex-wrap items-center gap-9 justify-center p-4">
-        
-      <Image
-        src={amazon}
-        alt="Amazon"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
-      <Image
-        src={dribble}
-        alt="Dribble"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
-      <Image
-        src={hubspot}
-        alt="HubSpot"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
-      <Image
-        src={notion}
-        alt="Notion"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
-      <Image
-        src={netflix}
-        alt="Netflix"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
-      <Image
-        src={zoom}
-        alt="Zoom"
-        className="mx-2 my-2"
-        width={125}
-        height={50}
-      />
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={amazon}
+          alt="Amazon"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={dribble}
+          alt="Dribble"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={hubspot}
+          alt="HubSpot"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={notion}
+          alt="Notion"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={netflix}
+          alt="Netflix"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
+      <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+        <Image
+          src={zoom}
+          alt="Zoom"
+          className="mx-2 my-2"
+          width={125}
+          height={50}
+        />
+      </div>
     </footer>
   );
 };
