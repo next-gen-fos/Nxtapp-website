@@ -1,23 +1,22 @@
-"use client"
+'use client';
 
+import React from 'react';
+import Slider from 'react-slick';
+import Image from 'next/image';
+import amazon from '@/public/amazon.svg';
+import dribble from '@/public/drible.svg';
+import hubspot from '@/public/hubspot.svg';
+import notion from '@/public/notion.svg';
+import netflix from '@/public/netflix.svg';
+import zoom from '@/public/zoom.svg';
 
-import React from "react";
-import Slider from "react-slick";
-import Image from "next/image";
-import amazon from "@/public/amazon.svg";
-import dribble from "@/public/drible.svg";
-import hubspot from "@/public/hubspot.svg";
-import notion from "@/public/notion.svg";
-import netflix from "@/public/netflix.svg";
-import zoom from "@/public/zoom.svg";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Footer = () => {
   const carouselSettings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
