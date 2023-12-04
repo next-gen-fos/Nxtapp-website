@@ -16,7 +16,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Footer = () => {
   const carouselSettings = {
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
