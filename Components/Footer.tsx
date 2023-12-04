@@ -3,12 +3,12 @@
 import React from 'react';
 import Slider from 'react-slick';
 import Image from 'next/image';
-import amazon from '@/public/amazon.svg';
-import dribble from '@/public/drible.svg';
-import hubspot from '@/public/hubspot.svg';
-import notion from '@/public/notion.svg';
-import netflix from '@/public/netflix.svg';
-import zoom from '@/public/zoom.svg';
+import amazon from '/public/amazon.svg';
+import dribble from '/public/drible.svg';
+import hubspot from '/public/hubspot.svg';
+import notion from '/public/notion.svg';
+import netflix from '/public/netflix.svg';
+import zoom from '/public/zoom.svg';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
