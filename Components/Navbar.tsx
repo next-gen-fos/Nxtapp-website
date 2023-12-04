@@ -8,14 +8,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <span className="text-2xl font-SpaceGrotesk font-semibold italic ">Otherwise</span>
       </div>
-
-      <div className="lg:hidden">
-        <button className="text-xl focus:outline-none">
-          <span className="block">&#9776;</span>
-        </button>
-      </div>
-
-      <div className="hidden lg:flex items-center space-x-8">
+      <div className="items-center space-x-8">
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
         <Link href="/services">Services</Link>
