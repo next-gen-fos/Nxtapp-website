@@ -8,12 +8,7 @@ echo ''
 echo 'please be patient, this may take a while...'
 
 # Check Prettier standards
-npm run check-format ||
-(
-    echo '🤢🤮🤢🤮 Its so ugly!! - Your styling looks disgusting. 🤢🤮🤢🤮
-            Prettier Check Failed. Run npm run format, add changes and try commit again.';
-    false;
-)
+npm run format
 
 echo ''
 
@@ -45,7 +40,7 @@ npm run check-types ||
 
 echo ''
 
-npm run format
+
 
 echo ''
 
