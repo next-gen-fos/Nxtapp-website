@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
-import NewNav from '@/Components/NewNav';
-import Newpage from '@/Components/Newpage';
+import NewNav from '@/app/Components/NewNav';
+import Newpage from '@/app/Components/Newpage';
 
 function page() {
   return (
