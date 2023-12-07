@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Apple from '../../public/AppStore.svg';
 
 const Newpage = () => {
   return (
@@ -32,7 +33,7 @@ const Newpage = () => {
         <div className="w-full flex items-center justify-center">
           <div className="flex">
             <button className=" rounded-full p-3 mx-2 my-2">
-              <Image src="/Appstore.svg" alt="Appstore" width={125} height={50} />
+              <Image src={Apple} alt="Appstore" width={125} height={50} />
             </button>
             <button className=" rounded-full p-3 mx-2 my-2">
               <Image src="/GooglePlay.svg" alt="Google Play" width={125} height={50} />

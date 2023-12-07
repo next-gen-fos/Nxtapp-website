@@ -39,7 +39,7 @@ const Footer = () => {
 
   return (
     <footer className="mx-[90px] p-4">
-      <p className="text-2xl items-center font-bold mb-4">Trusted Partners</p>
+      <p className="text-2xl items-center font-bold mb-4"> Backers and Partners</p>
       <Slider {...carouselSettings}>
         <div className="my-2">
           <Image src={amazon} alt="Amazon" width={125} height={50} />
