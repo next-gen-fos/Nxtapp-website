@@ -2,13 +2,14 @@
 
 import React from 'react';
 import Slider from 'react-slick';
+import stellar from '/public/stellar.svg';
 import Image from 'next/image';
 import amazon from '/public/amazon.svg';
 import dribble from '/public/drible.svg';
-import hubspot from '/public/hubspot.svg';
+import CircleLogo from '/public/Circle_Logo.svg';
 import notion from '/public/notion.svg';
 import netflix from '/public/netflix.svg';
-import zoom from '/public/zoom.svg';
+import linkio from '/public/linkio.svg';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -48,7 +49,7 @@ const Footer = () => {
           <Image src={dribble} alt="Dribble" width={125} height={50} />
         </div>
         <div className="my-2">
-          <Image src={hubspot} alt="HubSpot" width={125} height={50} />
+          <Image src={CircleLogo} alt="CircleLogo" width={125} height={50} />
         </div>
         <div className="my-2">
           <Image src={notion} alt="Notion" width={125} height={50} />
@@ -57,7 +58,10 @@ const Footer = () => {
           <Image src={netflix} alt="Netflix" width={125} height={50} />
         </div>
         <div className="my-2">
-          <Image src={zoom} alt="Zoom" width={125} height={50} />
+          <Image src={stellar} alt="stellar" width={105} height={35} />
+        </div>
+        <div className="my-2">
+          <Image src={linkio} alt="linkio" width={105} height={35} />
         </div>
       </Slider>
     </footer>

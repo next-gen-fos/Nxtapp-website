@@ -8,13 +8,13 @@ const Navbar = () => {
         <span className="text-2xl font-SpaceGrotesk font-semibold italic ">OdaWise</span>
       </div>
       <div className="items-center space-x-8">
-        <Link href="/">Home</Link>
-        <Link href="/about">About Us</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/use-case">Use Case</Link>
-        <Link href="/pricing">Pricing</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/download">
+        <Link href="/#">Home</Link>
+        <Link href="#">About Us</Link>
+        <Link href="#">Services</Link>
+        <Link href="#">Use Case</Link>
+        <Link href="#">Pricing</Link>
+        <Link href="#">Blog</Link>
+        <Link href="#">
           <button className="bg-black rounded-md border border-black text-white px-4 py-2">Download</button>
         </Link>
       </div>

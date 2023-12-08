@@ -7,10 +7,11 @@ const Newpage = () => {
     <div className="flex  mx-[90px] mt-9 flex-col">
       <div className="flex">
         <div className="w-1/3">
-          <h2 className="text-6xl font-semibold mb-[35px]">The Value of Your Money Stays Intact</h2>
+          <h2 className="text-6xl font-semibold mb-[35px]">Get the Value for your Money</h2>
           <p className="text-lg mb-[35px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+            inflation affects your day-to-day life. Saving in Stable currency is a great way to diversify your savings
+            and seize the opportunity to earn big. With OdaWise app, you can save in stable currency with a few clicks
+            wherever you are.
           </p>
         </div>
 
